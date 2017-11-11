@@ -1,0 +1,32 @@
+﻿*{
+    box-sizing:border-box;
+}
+.container{
+    width:100%;
+    max-width:100%;
+    grid-template-areas:
+        "head       head"
+        "section    section"
+        "foot       foot";
+    grid-template-columns:1fr 2fr;
+    background-color:black;
+}
+.head{
+    grid-area:head;
+    background-color:orange;
+}
+.sec{
+    max-width:80%;
+    margin:auto;
+    grid-area:sec;
+    background-color:red;
+}
+.foot{
+    grid-area:foot;
+    background-color:forestgreen;
+}
+.namehead{
+    text-align:center;
+}
+
+
