@@ -5,7 +5,10 @@
     <meta charset="utf-8" />
     <title>DevelopersJob</title>
     <link type="text/css" rel="stylesheet" href="css/general.css" />
-
+    <script type="text/javascript">
+        function abrirVentana() {
+            var newWindow = window.open("newoferta.html", "", "width = 800 , height = 600");
+        }</script>
 </head>
 <body>
 
@@ -20,10 +23,10 @@
 
         </header>
         <section class="sec">
-            <div class="vacio"><button>Crear Nueva oferta de trabajo</button></div>
-            
+            <div class="vacio"><button class="btnoferta" onclick="abrirVentana()">Crear Nueva oferta de trabajo</button></div>
+
             <span class="content">
-                <script type="text/javascript" src="js/mp.js" charset="utf-8"> </script>
+                <script type="text/javascript" src="js/empresa.js" charset="utf-8"> </script>
             </span>
         </section>
         <footer class="foot">

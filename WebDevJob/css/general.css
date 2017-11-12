@@ -24,6 +24,10 @@
     grid-area: head;
     background-color: #4c7971;
 }
+.btnoferta{
+    border-radius:3px 3px;
+    margin-bottom:1em;
+}
 
 .sec {
     max-width: 80%;

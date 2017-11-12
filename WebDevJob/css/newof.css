@@ -1,0 +1,21 @@
+﻿* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.formuoferta {
+    width: 80%;
+    max-width: 100%;
+    
+}
+
+.separador{
+    text-align:left;
+    display:table;
+    margin-left:15vw;
+    margin-bottom:1em;
+    
+
+}
+.txtnumero{
+    width:3em;
+}
