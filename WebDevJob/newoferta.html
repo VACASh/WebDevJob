@@ -12,18 +12,22 @@
         <div class="separador">
             <label for="name" class="lbl">Nombre:</label>&nbsp;
             <input type="text" id="name" class="textbox" /><br /><br />
-        
+
             <label for="descripcion" class="lbl">Descripcion de la empresa: </label><br />
             <textarea id="descripcion" rows="5" cols="50"></textarea><br /><br />
-       
+
             <label for="buscar" class="lbl">Que tipo de experiencia es requerida:</label><br />
             <textarea id="buscar" rows="5" cols="50"></textarea><br /><br />
-        
+
             <label for="oferta" class="lbl">Lo que la empresa ofrece al empleado:</label><br />
             <textarea id="oferta" rows="5" cols="50"></textarea><br /><br />
-        
+
             <label for="nVacantes" class="lbl">Nº vacantes:</label>&nbsp;
-            <input type="number" id="nVacantes" class="txtnumero"  /><br /><br />
+            <input type="number" id="nVacantes" class="txtnumero" /><br /><br />
+            <script type="text/javascript">
+                var empresa = new newEmpresa(document.getElementById("name").vaule);
+            </script>
+            <button onclick="close()">Enviar datos</button>
         </div>
 
 
