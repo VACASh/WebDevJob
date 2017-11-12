@@ -2,31 +2,45 @@
     box-sizing:border-box;
     font-family:Montserrat;
 }
+
 .container {
     width: 100%;
     max-width: 100%;
     grid-template-areas: "head       head" "section    section" "foot       foot";
     grid-template-columns: 1fr 2fr;
-    background-color: #2F4F4F;
+    background-color: #2F4F4f;
+    font-size:0.75em;
 }
-.foto{
-    
+.logo{
     max-width:10%;
     height:auto;
+}
+.content{
+    text-align:justify;
+    text-justify:inter-word;
 }
 .head {
     display:flex;
     grid-area: head;
-    background-color: #4c7972;
+    background-color: #4c7971;
 }
 
-.sec{
-    max-width:80%;
-    margin:auto;
-    grid-area:sec;
-    background-color:red;
+.sec {
+    max-width: 80%;
+    margin: auto;
+    grid-area: sec;
+    background-color: #adc8c3;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
-
+.consec{
+    border:0.21px solid black;
+    padding:1em;
+   
+}
+.vacio {
+    background-color: #2F4F4F;
+}
 .foot{
     grid-area:foot;
     background-color:forestgreen;
